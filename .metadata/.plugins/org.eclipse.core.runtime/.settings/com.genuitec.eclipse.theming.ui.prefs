@@ -1,11 +1,12 @@
 applyBackground=false
 approved.defs.file.last.changed.time=1540329737000
-codemix.dont.show.upsell.until=1549509882043
+codemix.dont.show.upsell.until=1549769074061
 configurationInstallLocation=/C\:/Users/usuario/eclipse/java-neon/eclipse/
 eclipse.preferences.version=1
-iconcolormode=primary
-last.download.attempt.time=1547871255730
-lastConfiguration=1547868274061
+iconcolormode=pastel
+includeThemingInOomph=false
+last.download.attempt.time=1549156313875
+lastConfiguration=1549156454433
 newinstall=false
 showWelcomeDialog=false
 workbench.theme=Dark Gray

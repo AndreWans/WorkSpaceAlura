@@ -1,0 +1,18 @@
+
+public class TestaFuncionario {
+
+	public static void main(String[] args) {
+		
+		Funcionario funcionario = new Funcionario();
+		
+		funcionario.setNome("Meiryane");
+		funcionario.setCpf("058849685-90");
+		funcionario.setSalario(2655.80);
+		
+		System.out.println(funcionario.getNome());
+		System.out.println(funcionario.getBonificacao());
+		
+
+	}
+
+}

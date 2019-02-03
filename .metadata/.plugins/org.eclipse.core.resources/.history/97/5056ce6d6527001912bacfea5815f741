@@ -1,0 +1,19 @@
+
+public class Gerente extends Funcionario implements Altenticavel{
+
+	public double getBonificacao(){
+		return super.getSalario();
+	}
+
+	private int senha;
+	
+	@Override
+	public boolean autentica(int senha) {
+		return this.senha == senha;
+	}
+
+	@Override
+	public void setSenha(int senha) {
+		this.senha = senha;
+	}
+}

@@ -1,0 +1,22 @@
+
+public abstract class FuncionarioAutenticavel extends Funcionario {
+
+	private int senha = 2222;
+	
+	public void autentica(Gerente gerente){
+		if(gerente.autendica(this.senha)){
+			System.out.println("Pode entrar no sistema!");
+		}else{
+			System.out.println("Não pode entrar no sistema!");
+		}
+	}
+
+	public int getSenha() {
+		return senha;
+	}
+
+	public void setSenha(int senha) {
+		this.senha = senha;
+	}
+
+}
