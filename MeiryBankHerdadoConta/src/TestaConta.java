@@ -8,8 +8,11 @@ public class TestaConta {
 		ContaPoupanca contaPoupanca = new ContaPoupanca(1, 222);
 		contaPoupanca.deposita(200.0);
 		
-		contaCorrente.transfere(10.0, contaPoupanca);
-		
+		try{
+			contaCorrente.transfere(10.0, contaPoupanca);
+		}catch (Exception e) {
+			System.out.println("Exception: " + e.getMessage());
+		}
 		System.out.println("Conta Corrente: " + contaCorrente.GetSaldo());
 		System.out.println("Conta Poupança: " + contaPoupanca.GetSaldo());
 
