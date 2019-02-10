@@ -1,0 +1,13 @@
+package br.com.meirybank.banco.especial;
+
+import br.com.meirybank.banco.model.Conta;
+
+public class ContaEspecial extends Conta {
+
+	@Override
+	public void deposita(double valor) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

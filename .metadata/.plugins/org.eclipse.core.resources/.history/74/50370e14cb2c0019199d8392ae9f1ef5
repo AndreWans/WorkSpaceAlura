@@ -1,0 +1,15 @@
+package br.com.meirybank.banco.test;
+
+public class TestaString {
+
+	public static void main(String[] args) {
+		
+		String nome = "Teste";//object literal
+//		String outro = new String("Teste");
+		
+		nome.replace("Teste", "teste");
+		
+		System.out.println(nome);
+	}
+
+}
