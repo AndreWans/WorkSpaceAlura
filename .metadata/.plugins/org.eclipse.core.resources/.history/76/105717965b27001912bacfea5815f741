@@ -1,9 +1,0 @@
-
-public class SistemaInterno {
-
-	private senha = 2222;
-	
-	public void autentica(Gerente gerente){
-		gerente.autendica(this.senha);
-	}
-}

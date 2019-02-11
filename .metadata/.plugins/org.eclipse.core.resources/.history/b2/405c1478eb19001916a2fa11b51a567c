@@ -1,9 +1,0 @@
-
-public class TestaGetESet {
-
-	public static void mains(String[] args){
-		Conta conta = new Conta();
-		conta.setNumero(19);
-		System.out.println(conta.getNumero());
-	}
-}

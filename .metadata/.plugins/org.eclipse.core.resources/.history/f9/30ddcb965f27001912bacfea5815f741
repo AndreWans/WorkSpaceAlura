@@ -1,7 +1,0 @@
-
-public class Gerente extends Altenticavel{
-
-	public double getBonificacao(){
-		return super.getSalario();
-	}
-}
