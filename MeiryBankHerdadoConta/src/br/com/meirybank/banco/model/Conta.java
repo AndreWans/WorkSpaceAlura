@@ -6,7 +6,7 @@ package br.com.meirybank.banco.model;
  *
  */
 
-public abstract class Conta {
+public abstract class Conta extends Object implements Comparable<Conta> {
 
 	protected double saldo;
 	private int agencia;
@@ -92,7 +92,18 @@ public abstract class Conta {
 	
 	@Override
 	public String toString() {
-		return "Número: " + this.numero;
+		return "Número: " + this.numero + " Saldo=" + this.saldo;
 	}
-	
+
+	@Override
+	public boolean equals(Object obj) {
+		Conta compara = (Conta) obj;		
+		return ((compara.agencia == this.agencia) 
+				&& (compara.numero == this.numero));
+	}
+
+	@Override
+	public int compareTo(Conta outraConta) {
+		return Double.compare(this.saldo, outraConta.saldo);
+	}
 }

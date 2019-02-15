@@ -1,0 +1,17 @@
+package br.com.meirybank.banco.test;
+
+import br.com.meirybank.banco.model.ContaCorrente;
+import br.com.meirybank.banco.model.GuardadorDeContas;
+
+public class TesteGuardadorDeContas {
+
+	public static void main(String[] args) {
+
+		GuardadorDeContas guardador = new GuardadorDeContas();
+		
+		ContaCorrente contaCorrente = new ContaCorrente(123, 258);
+		guardador.adiciona(contaCorrente);
+
+	}
+
+}

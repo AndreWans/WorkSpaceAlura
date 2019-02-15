@@ -1,0 +1,12 @@
+package br.com.meirybank.banco.test;
+
+public class Teste {
+
+	public static void main(String[] args){
+		int[] idades = new int[5];
+		
+		int idade = idades[0];
+		
+		System.out.println(idade);
+	}
+}

@@ -1,0 +1,34 @@
+package br.com.meirybank.banco.test.util;
+
+import java.util.ArrayList;
+
+import br.com.meirybank.banco.model.Conta;
+import br.com.meirybank.banco.model.ContaCorrente;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		ArrayList lista = new ArrayList();
+		
+		ContaCorrente contaCorrente = new ContaCorrente(123, 258);
+		ContaCorrente contaCorrente2 = new ContaCorrente(111, 222);
+		
+		lista.add(contaCorrente);
+		lista.add(contaCorrente2);
+		
+		System.out.println(lista.size());
+		
+		Conta conta = (Conta) lista.get(0);
+		System.out.println(conta.getAgencia());
+		
+		lista.remove(0);
+		
+		System.out.println(lista.size());
+		
+		for (Object object : lista) {
+			System.out.println(object);
+		}
+
+	}
+
+}

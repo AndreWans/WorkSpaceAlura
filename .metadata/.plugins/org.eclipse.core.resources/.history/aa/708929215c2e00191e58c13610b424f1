@@ -1,0 +1,5 @@
+package br.com.meirybank.banco.model;
+
+public class GuardadorDeReferencias {
+
+}

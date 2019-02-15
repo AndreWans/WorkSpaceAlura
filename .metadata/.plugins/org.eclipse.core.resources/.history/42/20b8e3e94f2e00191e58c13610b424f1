@@ -1,0 +1,19 @@
+package br.com.meirybank.banco.test;
+
+import br.com.meirybank.banco.model.ContaCorrente;
+
+public class TesteArrayReferencias {
+
+	public static void main(String[] args) {
+	
+		ContaCorrente[] contas = new ContaCorrente[5];
+		contas[0] = new ContaCorrente(123, 857);
+		contas[1] = new ContaCorrente(193, 187);
+
+		System.out.println(contas[0].getNumero());
+		System.out.println(contas[1].getNumero());
+		
+
+	}
+
+}
