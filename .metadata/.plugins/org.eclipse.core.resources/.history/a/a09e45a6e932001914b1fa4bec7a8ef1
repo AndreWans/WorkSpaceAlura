@@ -1,0 +1,10 @@
+package br.com.meirybank.banco.test.io;
+
+public class TesteDesserializacao {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

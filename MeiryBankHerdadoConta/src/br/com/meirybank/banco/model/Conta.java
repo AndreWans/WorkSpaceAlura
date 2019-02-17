@@ -1,12 +1,14 @@
 package br.com.meirybank.banco.model;
 
+import java.io.Serializable;
+
 /**
  * Classe que representa a abertura de uma conta
  * @author André Wansovicz
  *
  */
 
-public abstract class Conta extends Object implements Comparable<Conta> {
+public abstract class Conta extends Object implements Comparable<Conta> , Serializable{
 
 	protected double saldo;
 	private int agencia;

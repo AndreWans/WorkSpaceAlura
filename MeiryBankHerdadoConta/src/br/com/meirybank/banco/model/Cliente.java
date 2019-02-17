@@ -1,10 +1,13 @@
 package br.com.meirybank.banco.model;
+
+import java.io.Serializable;
+
 /**
  * Classe que representa um cliente no MeiryBank
  * @author André Wansovicz
  *
  */
-public class Cliente {
+public class Cliente implements Serializable{
 
 	private String nome;
 	private String cpf;
