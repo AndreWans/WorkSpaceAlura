@@ -1,0 +1,25 @@
+package br.com.java;
+
+import java.util.ArrayList;
+
+public class TestandoLista {
+
+	public static void main(String[] args) {
+		
+		String aula = "Conhecendo mais de listas";
+		String aula2 = "Modelando a classe Aula";
+		String aula3 = "Trabalhando com Cursos e Sets";
+		
+		ArrayList<String> aulas = new ArrayList<String>();
+		aulas.add(aula);
+		aulas.add(aula2);
+		aulas.add(aula3);
+		System.out.println(aulas);
+		
+		aulas.remove(1);
+		
+		System.out.println(aulas);
+		
+	}
+
+}

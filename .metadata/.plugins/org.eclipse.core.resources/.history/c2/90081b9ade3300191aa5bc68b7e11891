@@ -1,0 +1,24 @@
+package br.com.java;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class TestaAlunos {
+
+	public static void main(String[] args) {
+		
+		Set<String> alunos= new HashSet<>();
+		alunos.add("Meiryane Wansovicz");
+		alunos.add("André Wansovicz");
+		alunos.add("Dino da Silva Sauro");
+		alunos.add("Jaspion");
+		alunos.add("Vegeta");
+		
+		System.out.println(alunos);
+		
+		for (String string : alunos) {
+			System.out.println(string);
+		}
+	}
+
+}

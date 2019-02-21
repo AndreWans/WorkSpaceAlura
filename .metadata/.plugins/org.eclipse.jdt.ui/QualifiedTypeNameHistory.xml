@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="EditorVideo"/>
-<fullyQualifiedTypeName name="ContaPoupanca"/>
-<fullyQualifiedTypeName name="SistemaInterno"/>
-<fullyQualifiedTypeName name="Funcionario"/>
-<fullyQualifiedTypeName name="Administrador"/>
 <fullyQualifiedTypeName name="FuncionarioAutenticavel"/>
 <fullyQualifiedTypeName name="AutenticacaoUtil"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
@@ -12,7 +7,6 @@
 <fullyQualifiedTypeName name="ContaCorrente"/>
 <fullyQualifiedTypeName name="SeguroDeVida"/>
 <fullyQualifiedTypeName name="CalculadorImposto"/>
-<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.PUBLIC_MEMBER"/>
 <fullyQualifiedTypeName name="MinhaException"/>
@@ -30,12 +24,8 @@
 <fullyQualifiedTypeName name="java.util.Vector"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="br.com.meirybank.banco.model.Conta"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="br.com.meirybank.banco.test.util.NumeroDaContaComparator"/>
-<fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="br.com.meirybank.banco.test.util.TitularDaContaComparator"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.util.function.Consumer"/>
 <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
 <fullyQualifiedTypeName name="java.io.OutputStream"/>
@@ -60,4 +50,14 @@
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="br.com.java.Curso"/>
+<fullyQualifiedTypeName name="br.com.java.Aula"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="br.com.java.Aluno"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 </qualifiedTypeNameHistroy>
