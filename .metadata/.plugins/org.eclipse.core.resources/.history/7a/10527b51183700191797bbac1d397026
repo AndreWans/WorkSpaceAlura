@@ -1,0 +1,8 @@
+package br.com.java.maven;
+
+public class App {
+    public static void main( String[] args ){
+       Produto produto = new Produto("Bala juquinha sabor morango", 0.15);
+       System.out.println(produto.getNome() +' '+produto.getPreco());
+    }
+}

@@ -14,6 +14,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\WorkSpaceAlura\maven\produtos"/>
 			<item value="C:\Users\usuario\Desktop\pessoa"/>
 		</list>
 		<list key="projectNameTemplate">

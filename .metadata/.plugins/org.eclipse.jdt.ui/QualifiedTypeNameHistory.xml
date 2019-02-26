@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="FuncionarioAutenticavel"/>
-<fullyQualifiedTypeName name="AutenticacaoUtil"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="Tributavel"/>
-<fullyQualifiedTypeName name="ContaCorrente"/>
 <fullyQualifiedTypeName name="SeguroDeVida"/>
 <fullyQualifiedTypeName name="CalculadorImposto"/>
 <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
@@ -50,14 +45,19 @@
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
-<fullyQualifiedTypeName name="java.lang.Comparable"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="br.com.java.Curso"/>
 <fullyQualifiedTypeName name="br.com.java.Aula"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="br.com.java.Aluno"/>
 <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="br.com.java.OrdenaPorIdade"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="br.com.java.Funcionario"/>
+<fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
+<fullyQualifiedTypeName name="br.com.java.maven.Produto"/>
 </qualifiedTypeNameHistroy>
